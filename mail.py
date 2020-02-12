@@ -15,9 +15,9 @@ https://myaccount.google.com/lesssecureapps
 
 mesaj = MIMEMultipart()  # Mail yapımızı oluşturuyoruz.
 
-mesaj["From"] = "sburakbahceci@gmail.com"  # Kimden Göndereceğimiz
+mesaj["From"] = "example@mail.com"  # Kimden Göndereceğimiz
 
-mesaj["To"] = "ba_sak_1798@hotmail.com"  # Kime Göndereceğimiz
+mesaj["To"] = "example@mail.com"  # Kime Göndereceğimiz
 
 mesaj["Subject"] = "Smtp Mail Gönderme"  # Mailimizin Konusu
 
@@ -26,7 +26,6 @@ yazi = """
 
 Merhaba, Python ile mail gönderiyorum.    
 
-Safa Burak Bahceci
 
 
 """
